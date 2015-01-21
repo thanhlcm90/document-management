@@ -1,0 +1,13 @@
+<section data-ng-controller="HomeController">
+	<div class="row" style="text-align:center; margin-top: 50px;">
+        <h3>QUẢN LÝ VĂN BẢN</h3>
+    </div>
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-md-6 col-md-offset-3">
+        	<input type="text" style="width: 100%;" class="form-control" placeholder="Nhập từ khóa cần tìm kiếm" data-ng-model="search_string" ui-event="{keyup: 'checkKeyPressed($event)'}"/>
+        </div>
+    </div>
+    <div class="row" style="text-align:center; margin-top: 10px;">
+        <button class="btn btn-primary" data-ng-click="search()">Tìm kiếm</button>
+    </div>
+</section>

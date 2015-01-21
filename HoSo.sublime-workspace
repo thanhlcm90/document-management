@@ -1,0 +1,1273 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mongoo",
+				"mongoose"
+			],
+			[
+				"promotio",
+				"promotion"
+			],
+			[
+				"produc",
+				"product"
+			],
+			[
+				"provider",
+				"provider_banbuon_taphelu"
+			],
+			[
+				"quantity_min_",
+				"quantity_min_retail"
+			],
+			[
+				"price_type_",
+				"price_type_wholesale"
+			],
+			[
+				"price_type",
+				"price_type_retail"
+			],
+			[
+				"price_ty",
+				"price_type"
+			],
+			[
+				"show_in",
+				"show_in_retail"
+			],
+			[
+				"bank_",
+				"bank_branch"
+			],
+			[
+				"exis",
+				"should.exist"
+			],
+			[
+				"promot",
+				"promotion"
+			],
+			[
+				"shou",
+				"should.equal"
+			],
+			[
+				"exist",
+				"fs.exists"
+			],
+			[
+				"shoul",
+				"should.exist"
+			],
+			[
+				"login",
+				"login_fail_count"
+			],
+			[
+				"validat",
+				"validator  (variable)"
+			],
+			[
+				"mkdi",
+				"fs.mkdirSync"
+			],
+			[
+				"desc",
+				"describe	Describe"
+			],
+			[
+				"success",
+				"successStatusCode"
+			],
+			[
+				"should",
+				"should.equal"
+			],
+			[
+				"exi",
+				"should.exist"
+			],
+			[
+				"working_ar",
+				"working_area"
+			],
+			[
+				"listProdu",
+				"listProductByCustomer"
+			],
+			[
+				"confirm",
+				"confirmOrder"
+			],
+			[
+				"quanti",
+				"quantity"
+			],
+			[
+				"series",
+				"async.series"
+			],
+			[
+				"const",
+				"consts  (variable)"
+			],
+			[
+				"deliver",
+				"delivering"
+			],
+			[
+				"cons",
+				"consts"
+			],
+			[
+				"change",
+				"changeUserStatus"
+			],
+			[
+				"distr",
+				"district_id"
+			],
+			[
+				"user",
+				"user_created"
+			],
+			[
+				"finish",
+				"finishOrder"
+			],
+			[
+				"pop",
+				"populateData"
+			],
+			[
+				"deli",
+				"Deliverer"
+			],
+			[
+				"De",
+				"DelivererSalary"
+			],
+			[
+				"pri",
+				"price"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"para",
+				"parallel"
+			],
+			[
+				"de",
+				"deliverer_id"
+			],
+			[
+				"or",
+				"order_id"
+			],
+			[
+				"rese",
+				"resetPassword"
+			],
+			[
+				"whe",
+				"where"
+			],
+			[
+				"redis",
+				"redis_key"
+			],
+			[
+				"redi",
+				"redis_key"
+			],
+			[
+				"ex",
+				"exists"
+			],
+			[
+				"client",
+				"client_id"
+			],
+			[
+				"custom",
+				"customer"
+			],
+			[
+				"custo",
+				"customer"
+			],
+			[
+				"conv",
+				"convertCondition"
+			],
+			[
+				"chang",
+				"changePassword"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"array",
+				"arrayIndexOf"
+			],
+			[
+				"store",
+				"storeCities"
+			],
+			[
+				"key",
+				"keys"
+			],
+			[
+				"produ",
+				"productInStores"
+			],
+			[
+				"product_ty",
+				"product_type_id"
+			],
+			[
+				"vehi",
+				"vehicle_type"
+			],
+			[
+				"citi",
+				"cities"
+			],
+			[
+				"city",
+				"cityMapping"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"upda",
+				"updateUser"
+			],
+			[
+				"con",
+				"convertModelToObject"
+			],
+			[
+				"param",
+				"params"
+			],
+			[
+				"cust",
+				"customer"
+			],
+			[
+				"qua",
+				"quantity"
+			],
+			[
+				"cus",
+				"customer"
+			],
+			[
+				"updat",
+				"updateOrder"
+			],
+			[
+				"custome",
+				"customer_type"
+			],
+			[
+				"fi",
+				"filter"
+			],
+			[
+				"fil",
+				"filters"
+			],
+			[
+				"wor",
+				"working_area"
+			],
+			[
+				"addSettingMoney",
+				"addSettingMoneyDiscount"
+			],
+			[
+				"updateSettingMoneyT",
+				"updateSettingMoneyTime  (function)"
+			],
+			[
+				"addSettingMoneyT",
+				"addSettingMoneyTime"
+			],
+			[
+				"updateSe",
+				"updateSettingMoneyArea"
+			],
+			[
+				"add",
+				"addSettingMoneyArea"
+			],
+			[
+				"cos",
+				"console"
+			],
+			[
+				"mana",
+				"manager_id"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"workin",
+				"working_area"
+			],
+			[
+				"working_area",
+				"working_area_id"
+			],
+			[
+				"worki",
+				"working_area"
+			],
+			[
+				"ban",
+				"bankBranch"
+			],
+			[
+				"amoun",
+				"amounts"
+			],
+			[
+				"listBankB",
+				"listBankBranch"
+			],
+			[
+				"p",
+				"params"
+			],
+			[
+				"num",
+				"numAffected"
+			],
+			[
+				"use",
+				"user_id"
+			],
+			[
+				"mo",
+				"mongoose"
+			],
+			[
+				"iden",
+				"identity_card"
+			],
+			[
+				"prod",
+				"product_id"
+			],
+			[
+				"Prod",
+				"Product"
+			],
+			[
+				"dis",
+				"districtMappimg"
+			],
+			[
+				"cu",
+				"customers"
+			],
+			[
+				"Produc",
+				"ProductType"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"Obje",
+				"ObjectId"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"pr",
+				"products"
+			],
+			[
+				"rand",
+				"randomInt"
+			],
+			[
+				"createServ",
+				"http.createServer(requestListener);"
+			],
+			[
+				"time",
+				"time_open"
+			],
+			[
+				"cmd",
+				"cmnd_so"
+			],
+			[
+				"cmnd",
+				"cmnd_so"
+			],
+			[
+				"resu",
+				"resultId"
+			],
+			[
+				"Obj",
+				"ObjectId"
+			],
+			[
+				"find",
+				"findPerson"
+			],
+			[
+				"co",
+				"country_name"
+			],
+			[
+				"countr",
+				"country_name"
+			],
+			[
+				"vali",
+				"validateYear"
+			],
+			[
+				"val",
+				"validateYear"
+			],
+			[
+				"re",
+				"requirement"
+			],
+			[
+				"In",
+				"InvalidArgumentError"
+			],
+			[
+				"fir",
+				"firstTime"
+			],
+			[
+				"isa",
+				"israelTimezone"
+			],
+			[
+				"is",
+				"israelTimezone"
+			],
+			[
+				"coun",
+				"countryName"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"cou",
+				"countryName"
+			],
+			[
+				"u",
+				"util"
+			],
+			[
+				"crea",
+				"createdStatusCode"
+			],
+			[
+				"statu",
+				"statusCode"
+			],
+			[
+				"Story",
+				"StorySchema"
+			],
+			[
+				"comm",
+				"comments"
+			],
+			[
+				"page",
+				"page_size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/nodejs.sublime-build",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"git push ",
+				"Git: Push Current Branch"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"gitk",
+				"Git: Gitk"
+			],
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Add..."
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Convert Case: Title Case"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"dir",
+			"ls",
+			"cd d:",
+			"npm start",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/NodeJs/MeanExam",
+		"/D/NodeJs/MeanExam/app",
+		"/D/NodeJs/MeanExam/app/controllers",
+		"/D/NodeJs/MeanExam/app/models",
+		"/D/NodeJs/MeanExam/app/routes",
+		"/D/NodeJs/MeanExam/app/views",
+		"/D/NodeJs/MeanExam/config",
+		"/D/NodeJs/MeanExam/config/env",
+		"/D/NodeJs/MeanExam/node_modules",
+		"/D/NodeJs/MeanExam/public",
+		"/D/NodeJs/MeanExam/public/modules",
+		"/D/NodeJs/MeanExam/public/modules/articles",
+		"/D/NodeJs/MeanExam/public/modules/articles/controllers",
+		"/D/NodeJs/MeanExam/public/modules/articles/views",
+		"/D/NodeJs/MeanExam/public/modules/core",
+		"/D/NodeJs/MeanExam/public/modules/core/controllers",
+		"/D/NodeJs/MeanExam/public/modules/core/views"
+	],
+	"file_history":
+	[
+		"/D/NodeJs/MeanExam/public/modules/articles/views/view-article.client.view.html",
+		"/D/NodeJs/MeanExam/public/modules/core/controllers/home.client.controller.js",
+		"/D/NodeJs/MeanExam/app/controllers/articles.server.controller.js",
+		"/D/NodeJs/MeanExam/public/modules/articles/views/list-articles.client.view.html",
+		"/D/NodeJs/MeanExam/public/modules/articles/controllers/articles.client.controller.js",
+		"/D/NodeJs/MeanExam/public/modules/articles/views/edit-article.client.view.html",
+		"/D/NodeJs/phanphoi_giaiphap/app/views/list/district.html",
+		"/D/NodeJs/MeanExam/app/models/article.server.model.js",
+		"/D/NodeJs/MeanExam/public/modules/articles/views/create-article.client.view.html",
+		"/D/NodeJs/MeanExam/public/modules/core/views/home.client.view.html",
+		"/D/NodeJs/MeanExam/app/views/index.server.view.html",
+		"/D/NodeJs/MeanExam/config/env/development.js",
+		"/D/NodeJs/MeanExam/config/env/production.js",
+		"/D/NodeJs/MeanExam/config/env/all.js",
+		"/D/NodeJs/MeanExam/app/controllers/core.server.controller.js",
+		"/D/NodeJs/MeanExam/app/routes/core.server.routes.js",
+		"/D/NodeJs/MeanExam/app/views/layout.server.view.html",
+		"/D/NodeJs/MeanExam/public/modules/core/views/header.client.view.html",
+		"/D/NodeJs/MeanExam/server.js",
+		"/D/NodeJs/MeanExam/package.json",
+		"/D/NodeJs/MeanExam/bower.json",
+		"/D/NodeJs/MeanExam/public/modules/core/controllers/header.client.controller.js",
+		"/D/NodeJs/MeanExam/public/modules/articles/config/articles.client.routes.js",
+		"/D/NodeJs/MeanExam/app/routes/articles.server.routes.js",
+		"/D/NodeJs/MeanExam/node_modules/mongoose-search-plugin/node_modules/natural/lib/natural/stemmers/lancaster_stemmer.js",
+		"/D/NodeJs/MeanExam/node_modules/mongoose-search-plugin/node_modules/natural/lib/natural/stemmers/porter_stemmer.js",
+		"/D/NodeJs/MeanExam/node_modules/mongoose-search-plugin/node_modules/natural/lib/natural/stemmers/porter_stemmer_es.js",
+		"/D/NodeJs/MeanExam/node_modules/mongoose-search-plugin/node_modules/natural/lib/natural/stemmers/lancaster_rules.js",
+		"/D/NodeJs/MeanExam/public/lib/angular-ui-utils/ui-utils.js",
+		"/D/NodeJs/MeanExam/public/config.js",
+		"/D/NodeJs/MeanExam/public/modules/articles/services/articles.client.service.js",
+		"/D/NodeJs/MeanExam/node_modules/mongoose-search-plugin/node_modules/natural/index.js",
+		"/D/NodeJs/MeanExam/public/modules/core/services/menus.client.service.js",
+		"/D/NodeJs/MeanExam/public/modules/core/services/articles.client.service.js",
+		"/D/NodeJs/MeanExam/public/modules/articles/views/search-articles.client.view.html",
+		"/D/NodeJs/MeanExam/public/modules/core/core.client.module.js",
+		"/D/NodeJs/MeanExam/public/modules/articles/config/articles.client.config.js",
+		"/D/NodeJs/MeanExam/public/lib/angularjs-toaster/toaster.js",
+		"/D/NodeJs/MeanExam/public/services/notify.js",
+		"/D/NodeJs/MeanExam/public/lib/angularjs-toaster/toaster.css",
+		"/D/NodeJs/MeanExam/public/services/utils.js",
+		"/D/NodeJs/MeanExam/public/application.js",
+		"/D/NodeJs/MeanExam/public/lib/angular-toastr/dist/angular-toastr.js",
+		"/D/NodeJs/MeanExam/public/lib/angular-toastr/bower.json",
+		"/D/NodeJs/MeanExam/public/lib/toastr/toastr.js",
+		"/D/NodeJs/MeanExam/public/lib/angular-toastr/dist/angular-toastr.css",
+		"/D/NodeJs/phanphoi_giaiphap/index.html",
+		"/D/NodeJs/phanphoi_giaiphap/login.html",
+		"/D/NodeJs/MeanExam/public/lib/jquery/bower.json",
+		"/D/NodeJs/MeanExam/public/lib/jquery/.bower.json",
+		"/D/NodeJs/phanphoi_giaiphap/bower.json",
+		"/D/NodeJs/MeanExam/gruntfile.js",
+		"/D/NodeJs/phanphoi_giaiphap/app/services/notify.js",
+		"/D/NodeJs/phanphoi_giaiphap/app/services/config.js",
+		"/D/NodeJs/phanphoi_giaiphap/app/services/util.js",
+		"/D/NodeJs/phanphoi_giaiphap/app/appStart.js",
+		"/D/NodeJs/phanphoi_giaiphap/app/app.js",
+		"/D/NodeJs/MeanExam/.jshintrc",
+		"/D/NodeJs/PhanPhoi/libs/utils.js",
+		"/D/NodeJs/PhanPhoi/package.json",
+		"/D/NodeJs/phanphoi_giaiphap/app/controllers/list/cityController.js",
+		"/D/NodeJs/MeanExam/public/modules/articles/articles.client.module.js",
+		"/D/NodeJs/MeanExam/config/config.js",
+		"/D/NodeJs/MeanExam/config/init.js",
+		"/D/NodeJs/MeanExam/config/express.js",
+		"/D/NodeJs/MeanExam/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn/test/compare/traceur.js",
+		"/D/NodeJs/phanphoi_giaiphap/app/services/logger.js",
+		"/D/NodeJs/phanphoi_giaiphap/app/views/list/city.html",
+		"/D/NodeJs/MeanExam/public/lib/angular-loading-bar/build/loading-bar.css",
+		"/D/NodeJs/MeanExam/config/env/test.js",
+		"/D/NodeJs/MeanExam/config/env/secure.js",
+		"/D/NodeJs/MeanExam/app/controllers/errors.server.controller.js",
+		"/D/NodeJs/MeanExam/public/modules/users/views/authentication/signin.client.view.html",
+		"/D/NodeJs/PhanPhoi/models/product.js",
+		"/D/NodeJs/PhanPhoi/models/order.js",
+		"/D/NodeJs/MeanExam/public/modules/users/views/authentication/signup.client.view.html",
+		"/D/NodeJs/MeanExam/public/modules/core/config/core.client.routes.js",
+		"/D/NodeJs/MeanExam/public/robots.txt",
+		"/D/NodeJs/MeanExam/public/humans.txt",
+		"/D/NodeJs/MeanExam/app/controllers/users.server.controller.js",
+		"/D/NodeJs/MeanExam/app/controllers/users/users.profile.server.controller.js",
+		"/D/NodeJs/MeanExam/app/controllers/users/users.authentication.server.controller.js",
+		"/D/NodeJs/MeanExam/config/passport.js",
+		"/D/NodeJs/MeanExam/app/models/user.server.model.js",
+		"/D/NodeJs/MeanExam/config/strategies/facebook.js",
+		"/D/NodeJs/phanphoi_dieuphoi/app/controllers/orderprocessedController.js",
+		"/D/NodeJs/phanphoi_dieuphoi/app/controllers/orderprocessController.js",
+		"/D/NodeJs/phanphoi_dieuphoi/app/controllers/orderEditController.js",
+		"/D/NodeJs/PhanPhoi/data_sample/User.json",
+		"/D/NodeJs/PhanPhoi/data_sample/People.json",
+		"/D/NodeJs/PhanPhoi/test/test-order.js",
+		"/D/NodeJs/MeanExample/server.js",
+		"/D/NodeJs/PhanPhoi/routes/routes-order.js",
+		"/D/NodeJs/MeanExample/packages/users/public/routes/auth.js",
+		"/D/Web Theme/aquarius/js/plugins.js",
+		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Models/ExamplesModel.cs",
+		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Controllers/MainController.cs",
+		"/D/Web Theme/aquarius/index.html",
+		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Views/Main/_West.cshtml",
+		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/resources/js/main.js",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/NodeJs/PhanPhoi/routes/routes-report.js",
+		"/D/NodeJs/PhanPhoi/routes/routes-user.js",
+		"/D/NodeJs/PhanPhoi/routes/routes-setting.js",
+		"/D/NodeJs/PhanPhoi/models/user.js",
+		"/D/HTC/WebApplication1/WebApplication1/Controllers/AccountController.cs",
+		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Views/Main/_Center.cshtml",
+		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Views/Main/Index.cshtml",
+		"/D/HTC/WebApplication1/WebApplication1/App_Start/Startup.Auth.cs",
+		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Areas/Portal/Controllers/ComplexController.cs",
+		"/D/NodeJs/PhanPhoi/models/bank.js",
+		"/D/NodeJs/PhanPhoi/models/customer.js",
+		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Views/Web.config",
+		"/D/HTC/Kachiusa/Administrator/Content/examples.css",
+		"/D/HTC/Kachiusa/Administrator/Content/main.css",
+		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Ext.Net.Examples.MVC.csproj",
+		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Ext.Net.Examples.MVC.csproj.user",
+		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Global.asax.cs",
+		"/D/HTC/Kachiusa/Administrator/Views/ExtNet/Index.cshtml",
+		"/D/NodeJs/PhanPhoi/models/recruitment.js",
+		"/D/NodeJs/PhanPhoi/routes/routes-customer.js",
+		"/D/NodeJs/AngularJSAuthentication/AngularJSAuthentication.API/Models/Enums.cs",
+		"/D/NodeJs/AngularJSAuthentication/AngularJSAuthentication.API/Entities/Client.cs",
+		"/D/NodeJs/PhanPhoi/routes/routes-recruitment.js",
+		"/D/NodeJs/AngularJSAuthentication/AngularJSAuthentication.API/AuthRepository.cs",
+		"/D/NodeJs/AngularJSAuthentication/AngularJSAuthentication.API/Providers/SimpleAuthorizationServerProvider.cs",
+		"/D/NodeJs/AngularJSAuthentication/AngularJSAuthentication.Web/app/services/authService.js",
+		"/D/NodeJs/AngularJSAuthentication/AngularJSAuthentication.Web/app/services/authInterceptorService.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"D:\\NodeJs\\PhanPhoi\\routes,D:\\NodeJs\\PhanPhoi\\models,D:\\NodeJs\\PhanPhoi",
+			"D:\\NodeJs\\PhanPhoi\\routes,D:\\NodeJs\\PhanPhoi\\models",
+			"D:\\NodeJs\\PhanPhoi\\routes;D:\\NodeJs\\PhanPhoi\\models",
+			"D:\\NodeJs\\PhanPhoi\\routes",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$scope.articles",
+			"\"",
+			"article",
+			"title",
+			"Document Management",
+			"title",
+			"console.lo",
+			"stateParams",
+			"getToggleElement",
+			"error",
+			"err",
+			"success",
+			"ng-includes",
+			"animate",
+			"containerId",
+			"options.containerId",
+			"getContainer",
+			"createContainer",
+			"toastClass",
+			"toastr",
+			"toast-top-center",
+			"paging",
+			"public/dist/application.min.js",
+			"public/dist/application.js",
+			"applicationJavaScriptFiles",
+			"assets.js",
+			"'Authentication'",
+			"Authentication",
+			"articles.client.module",
+			"ApplicationConfiguration",
+			"registerModule",
+			"module('articles')",
+			"articles",
+			"/*",
+			").",
+			"meanexam",
+			">\n",
+			"validateLocalStrategyProperty",
+			"level: 20",
+			"level: 21",
+			" PeopleSalary for order 5",
+			"Check salary should PeopleSalary for order 5",
+			"Ext.",
+			"Ext.get",
+			"scroll",
+			"mCustomScrollbar",
+			"SettingPro",
+			"))\n",
+			"is_captain",
+			"people",
+			"Main",
+			"../fonts",
+			"Client",
+			"Clients",
+			"isEmail",
+			"conso",
+			"getProductPromotion",
+			"TeamType",
+			"Position",
+			"     *",
+			"     * ",
+			"     *",
+			"     * ",
+			"url_recruitment_update",
+			"v",
+			"Position",
+			"/api/user/reset_p",
+			"order_sample4",
+			"shipping",
+			"user_pro",
+			"user_pr",
+			"percentDiff",
+			"54475683ff9f7b134decbc17",
+			"percentDiff",
+			"getProductPromotion",
+			"54475683ff9f7b134decbc17",
+			"5448cb86a6f34d3d10d51265",
+			"writeOrderLog",
+			"listProductInExternalSystem",
+			"console.log",
+			"promotion_list",
+			"searchProductInExternalSystem",
+			"getProductPromotion",
+			"PromotionListSchema",
+			"nsp_dashboard",
+			"Người giao hàng",
+			"HEAD",
+			"<< HEAD",
+			"getProductCharity",
+			"product_group_id",
+			"shipping",
+			"conso",
+			"console.",
+			"console",
+			"console.log",
+			"getProductCharity",
+			"getPriceActiveInPriceList",
+			"getProductCharity",
+			"console.log",
+			"calcPrice",
+			"calc_pr",
+			"url_order_calc_price",
+			"calcOrderPriceDiscount",
+			"console.log",
+			"key[item]",
+			"calcOrderPriceDiscount",
+			"order3_id",
+			"finish or",
+			"finish ỏ",
+			"populateData",
+			"SettingShipperPrice",
+			"getProductPromotion",
+			"getPriceActiveInPriceList",
+			"list_nation",
+			"nation",
+			"list_province",
+			"update People",
+			"'False'",
+			"'True'",
+			"posi",
+			"is_ca",
+			"user_level",
+			"posi",
+			"     *",
+			"     * ",
+			"     *",
+			"     * ",
+			"TeamType"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"./fonts",
+			"",
+			"item",
+			"data",
+			"'false'",
+			"'true'",
+			"",
+			"utils.convertUnicode",
+			"productInStore.promotion_list",
+			"store_sample",
+			"store_id",
+			"product_id",
+			"isMongoId",
+			"",
+			"data.promotion.discount",
+			"data.promotion.user",
+			"data.promotion",
+			"data.system_money",
+			"addUser",
+			"\"status\" : true",
+			"profile",
+			"user_sample[1]",
+			"user_sample[0]",
+			"d2ee815f50d0ce68278f2aaa515d4ab27a4909cbb3e5beaae0a795fb1ddc3955",
+			"d2ee815f50d0ce68278f2aaa515d4ab27a4909cbb3e5beaae0a795fb1ddc39551",
+			"utils.error(",
+			"utils.info(",
+			"utils.error",
+			"46500",
+			"order1_id",
+			"pending",
+			"item",
+			"0 },",
+			"true },",
+			"console.info",
+			"list_province",
+			"user not found",
+			"getPriceActiveInPriceList",
+			"item_total",
+			"product_group",
+			"product_type",
+			"Group",
+			"",
+			"8082",
+			"10.1.30.55:8082",
+			"",
+			"priceModel",
+			"quantities",
+			"",
+			"product_ranges",
+			"customer_types",
+			"",
+			"\"mobile\"",
+			"",
+			"list_with_status_column_query",
+			"\"user_id\": 50",
+			"\"user_id\": 49",
+			"\"user_id\": 48",
+			"\"user_id\": 47",
+			"\"user_id\": 45",
+			"\"user_id\": 33",
+			"\"user_id\": 29",
+			"\"user_id\": 26",
+			"\"user_id\": 23",
+			"\"user_id\": 22",
+			"\"user_id\": 21",
+			"\"hashed_password\":",
+			"\"_id\":",
+			"\"city\"",
+			"\"province\"",
+			"\"city\":27",
+			"\"city\":26",
+			"\"city\":25",
+			"\"city\":24",
+			"\"city\":23",
+			"\"city\":22",
+			"\"city\":21",
+			"\"city\":20",
+			"\"city\":19",
+			"\"city\":18",
+			"\"city\":17",
+			"\"city\":16",
+			"\"city\":15",
+			"\"city\":19",
+			"\"city\":18",
+			"\"city\":17",
+			"17",
+			"consts.customer_column_query",
+			"{\"_id\"",
+			"\"",
+			"{'_id':",
+			"{'_id':1,",
+			"\"province\"",
+			"\"06:00\"",
+			"\"08:00\"",
+			"08:00",
+			"\"date\":\"11/11/1990\",",
+			"district",
+			"city",
+			"district2",
+			"district1",
+			"city",
+			"Bơ, Sữa, Trứng, Đường",
+			"\"_id\"",
+			"\"near\"",
+			"\"district2_id\"",
+			"\"district1_id\"",
+			"\"money\"",
+			"\"hour\"",
+			"noi_sinh",
+			"CarSchema",
+			"moto",
+			"Moto",
+			"res.setHeader",
+			"+0300",
+			"iwander",
+			"fullname",
+			"consts.",
+			"Factory.create",
+			"consts.",
+			"host + urlConfig.",
+			"urlConfig.",
+			"config",
+			"createdStatusCode",
+			"urlConfig",
+			"missingError",
+			"*"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 158.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 94.0
+	},
+	"project": "HoSo.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"produc",
+				"routes\\routes-product.js"
+			],
+			[
+				"store",
+				"routes\\routes-store.js"
+			],
+			[
+				"consts",
+				"config\\consts.js"
+			],
+			[
+				"or",
+				"routes\\routes-order.js"
+			],
+			[
+				"ut",
+				"libs\\utils.js"
+			],
+			[
+				"order",
+				"routes\\routes-order.js"
+			],
+			[
+				"exter",
+				"routes\\routes-external_system.js"
+			],
+			[
+				"customer",
+				"routes\\routes-customer.js"
+			],
+			[
+				"user",
+				"routes\\routes-user.js"
+			],
+			[
+				"use",
+				"routes\\routes-user.js"
+			],
+			[
+				"core",
+				"routes\\routes-core.js"
+			],
+			[
+				"uti",
+				"libs\\utils.js"
+			],
+			[
+				"ord",
+				"routes\\routes-order.js"
+			],
+			[
+				"user_ex_",
+				"routes\\routes-user_ex_system.js"
+			],
+			[
+				"r-cu",
+				"routes\\routes-customer.js"
+			],
+			[
+				"r-sto",
+				"routes\\routes-store.js"
+			],
+			[
+				"r-s",
+				"routes\\routes-store.js"
+			],
+			[
+				"",
+				"~/nodejs/helloworld.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\NodeJs\\spa\\spa.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sendSms",
+				"sendSMSOrderDetail"
+			]
+		],
+		"width": 1085.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 338.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

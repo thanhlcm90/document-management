@@ -1,0 +1,52 @@
+<section data-ng-controller="ArticlesController">
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-md-6">
+            <input type="text" style="width: 100%;" class="form-control" placeholder="Nhập từ khóa cần tìm kiếm" data-ng-model="search_string" ui-event="{keyup: 'checkKeyPressed($event)'}" />
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-primary" data-ng-click="search()">Tìm kiếm</button>
+        </div>
+        <div class="col-md-2">
+            <select ng-model="groupby" class="form-control">
+                <option value="title">Nhóm theo Danh mục</option>
+                <option value="range">Nhóm theo Lĩnh vực</option>
+                <option value="org">Nhóm theo Cơ quan thực hiện</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-primary" data-ng-click="addNew()">Thêm mới</button>
+        </div>
+    </div>
+    <div loading-container="tableParams.settings().$loading">
+        <table ng-table="tableParams" cellpadding="0" cellspacing="0" class="table ng-table-rowselected" id="listData">
+            <tbody data-ng-repeat="group in $groups">
+                <tr class="ng-table-group">
+                    <td colspan="{{$columns.length}}">
+                        <a href="" ng-click="group.$hideRows = !group.$hideRows">
+                            <span class="glyphicon" ng-class="{ 'glyphicon-chevron-right': group.$hideRows, 'glyphicon-chevron-down': !group.$hideRows }"></span>
+                            <strong>{{ group.value }}</strong>
+                        </a>
+                    </td>
+                </tr>
+                <tr ng-hide="group.$hideRows" data-ng-repeat="item in group.data">
+                    <td data-title="'Tên thủ tục hành chính'" sortable="'content'">{{item.content}}</td>
+                    <td data-title="'Lĩnh vực'" sortable="'range'">{{item.range}}</td>
+                    <td data-title="'Cơ quan thực hiện'" sortable="'org'">{{item.org}}</td>
+                    <td>
+                        <div class="pull-right" data-ng-show="authentication.user._id == item.user" style="width:90px;">
+                            <a class="btn btn-primary" href="/#!/articles/{{item._id}}/edit">
+                                <i class="glyphicon glyphicon-edit"></i>
+                            </a>
+                            <a class="btn btn-primary" data-ng-click="remove(item);">
+                                <i class="glyphicon glyphicon-trash"></i>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="alert alert-warning text-center" data-ng-if="articles.$resolved && !articles.length">
+        Chưa có văn bản nào, hãy <a href="/#!/articles/create">tạo mới</a> văn bản
+    </div>
+</section>
