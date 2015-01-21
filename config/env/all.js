@@ -6,7 +6,7 @@ module.exports = {
 		description: 'Document Management Application with MongoDB, Express, AngularJS, and Node.js',
 		keywords: 'Document, Management, MongoDB, Express, AngularJS, Node.js'
 	},
-	port: process.env.PORT || 3000,
+	port: process.env.PORT || 8084,
 	templateEngine: 'swig',
 	sessionSecret: 'MEAN',
 	sessionCollection: 'sessions',
