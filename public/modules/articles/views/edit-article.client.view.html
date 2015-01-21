@@ -11,7 +11,6 @@
 						<input name="title" type="text" data-ng-model="article.title" id="title" class="form-control" placeholder="Danh mục" required>
 					</div>
 				</div>
-				{{article}}
 				<div class="form-group" ng-class="{ 'has-error': articleForm.sub_title.$dirty && articleForm.sub_title.$invalid }">
 					<label class="control-label" for="sub_title">Danh mục phụ</label>
 					<div class="controls">
@@ -21,7 +20,13 @@
 				<div class="form-group" ng-class="{ 'has-error': articleForm.content.$dirty && articleForm.content.$invalid }">
 					<label class="control-label" for="content">Tên thủ tục hành chính</label>
 					<div class="controls">
-						<textarea name="content" data-ng-model="article.content" id="content" class="form-control" cols="30" rows="10" placeholder="Tên thủ tục hành chính"></textarea>
+						<textarea name="content" data-ng-model="article.content" id="content" class="form-control" cols="30" rows="2" placeholder="Tên thủ tục hành chính"></textarea>
+					</div>
+				</div>
+				<div class="form-group" ng-class="{ 'has-error': articleForm.description.$dirty && articleForm.description.$invalid }">
+					<label class="control-label" for="description">Nội dung</label>
+					<div class="controls">
+						<textarea name="description" data-ng-model="article.description" id="description" class="form-control" cols="30" rows="10" placeholder="Nội dung"></textarea>
 					</div>
 				</div>
 				<div class="form-group" ng-class="{ 'has-error': articleForm.range.$dirty && articleForm.range.$invalid }">

@@ -32,6 +32,11 @@ var ArticleSchema = new Schema({
         required: 'Tên thủ tục hành chính không được trống',
         index: 'text'
     },
+    description: {
+        type: String,
+        default: '',
+        trim: true
+    },
     range: { // lĩnh vực
         type: String,
         default: '',

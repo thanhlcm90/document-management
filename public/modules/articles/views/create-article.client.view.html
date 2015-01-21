@@ -20,7 +20,13 @@
 				<div class="form-group" ng-class="{ 'has-error': articleForm.content.$dirty && articleForm.content.$invalid }">
 					<label class="control-label" for="content">Tên thủ tục hành chính</label>
 					<div class="controls">
-						<textarea name="content" data-ng-model="content" id="content" class="form-control" cols="30" rows="10" placeholder="Tên thủ tục hành chính"></textarea>
+						<textarea name="content" data-ng-model="content" id="content" class="form-control" cols="30" rows="2" placeholder="Tên thủ tục hành chính"></textarea>
+					</div>
+				</div>
+				<div class="form-group" ng-class="{ 'has-error': articleForm.description.$dirty && articleForm.description.$invalid }">
+					<label class="control-label" for="description">Nội dung</label>
+					<div class="controls">
+						<textarea name="description" data-ng-model="description" id="description" class="form-control" cols="30" rows="10" placeholder="Nội dung"></textarea>
 					</div>
 				</div>
 				<div class="form-group" ng-class="{ 'has-error': articleForm.range.$dirty && articleForm.range.$invalid }">

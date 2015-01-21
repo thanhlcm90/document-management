@@ -73,7 +73,8 @@ angular.module('articles').controller('ArticlesController', ['$scope', '$statePa
                 title: this.title,
                 content: this.content,
                 org: this.org,
-                range: this.range
+                range: this.range,
+                description: this.description
             });
             article.$save(function(response) {
                 $scope.content = '';
