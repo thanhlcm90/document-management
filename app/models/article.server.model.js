@@ -52,6 +52,10 @@ var ArticleSchema = new Schema({
     user: { // tài liệu của người dùng nào
         type: Schema.ObjectId,
         ref: 'User'
+    },
+    doc: {
+        type: String,
+        default: ''
     }
 });
 

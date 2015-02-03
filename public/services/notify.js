@@ -34,11 +34,11 @@ function factory(toaster) {
 
     /////////////////////
     function error(message, title) {
-        var notify = toastr.pop('error', title, message);
+        var notify = toaster.pop('error', title, message);
     }
 
     function info(message, title) {
-        var notify = toastr.pop('info', title, message);
+        var notify = toaster.pop('info', title, message);
     }
 
     function success(message, title) {
@@ -46,6 +46,6 @@ function factory(toaster) {
     }
 
     function warning(message, title) {
-        var notify = toastr.pop('warning', title, message);
+        var notify = toaster.pop('warning', title, message);
     }
 };

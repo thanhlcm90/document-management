@@ -1,23 +1,36 @@
 <section data-ng-controller="ArticlesController" data-ng-init="findOne()">
-	<div class="page-header">
-		<h1 data-ng-bind="article.title"></h1>
-	</div>
-	<div class="pull-right" data-ng-show="authentication.user._id == article.user._id">
-		<a class="btn btn-primary" href="/#!/articles/{{article._id}}/edit">
-			<i class="glyphicon glyphicon-edit"></i>
-		</a>
-		<a class="btn btn-primary" data-ng-click="remove();">
-			<i class="glyphicon glyphicon-trash"></i>
-		</a>
-	</div>
-	<small>
-		<em class="text-muted">
-			Được thêm vào lúc
-			<span data-ng-bind="article.created | date:'mediumDate'"></span>
-			bởi
-			<span data-ng-bind="article.user.displayName"></span>
-		</em>
-	</small>
-	<p class="lead" data-ng-bind="article.content"></p>
-	<p class="lead" data-ng-bind="article.description"></p>
+    <div id="article-body">
+        <div class="page-header">
+            <h1 data-ng-bind="article.title"></h1>
+        </div>
+        <div class="pull-right" data-ng-show="authentication.user._id == article.user._id">
+            <a class="btn btn-primary" href="/#!/articles/{{article._id}}/edit" data-toggle="tooltip" data-placement="bottom" title="Chỉnh sửa văn bản">
+                <i class="glyphicon glyphicon-edit"></i>
+            </a>
+            <a class="btn btn-primary" data-ng-click="remove();" data-toggle="tooltip" data-placement="bottom" title="Xóa văn bản">
+                <i class="glyphicon glyphicon-trash"></i>
+            </a>
+            <a class="btn btn-primary" data-ng-click="printClick();" data-toggle="tooltip" data-placement="bottom" title="In nội dung">
+                <i class="glyphicon glyphicon-print"></i>
+            </a>
+        </div>
+        <small>
+			<em class="text-muted">
+				Được thêm vào lúc
+				<span data-ng-bind="article.created | date:'mediumDate'"></span>
+				bởi
+				<span data-ng-bind="article.user.displayName"></span>
+			</em>
+		</small>
+        <p class="lead">Tên thủ tục hành chính:</p>
+        <p class="lead" data-ng-bind="article.content"></p>
+        <p class="lead">Lĩnh vực:</p>
+        <p class="lead" data-ng-bind="article.range"></p>
+        <p class="lead">Cơ quan thực hiện:</p>
+        <p class="lead" data-ng-bind="article.org"></p>
+        <p class="lead">Nội dung:</p>
+        <p class="lead" data-ng-bind="article.description"></p>
+        <p class="lead">Văn bản, bản mẫu:</p>
+        <p class="lead" data-ng-bind="article.doc"></p>
+    </div>
 </section>

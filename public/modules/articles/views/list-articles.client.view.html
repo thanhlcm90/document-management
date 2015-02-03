@@ -28,20 +28,10 @@
                         </a>
                     </td>
                 </tr>
-                <tr ng-hide="group.$hideRows" data-ng-repeat="item in group.data">
+                <tr ng-hide="group.$hideRows" data-ng-repeat="item in group.data" data-ng-click="rowClick(item._id)" class="table-row">
                     <td data-title="'Tên thủ tục hành chính'" sortable="'content'">{{item.content}}</td>
                     <td data-title="'Lĩnh vực'" sortable="'range'">{{item.range}}</td>
                     <td data-title="'Cơ quan thực hiện'" sortable="'org'">{{item.org}}</td>
-                    <td>
-                        <div class="pull-right" data-ng-show="authentication.user._id == item.user" style="width:90px;">
-                            <a class="btn btn-primary" href="/#!/articles/{{item._id}}">
-                                <i class="glyphicon glyphicon-edit"></i>
-                            </a>
-                            <a class="btn btn-primary" data-ng-click="remove(item);">
-                                <i class="glyphicon glyphicon-trash"></i>
-                            </a>
-                        </div>
-                    </td>
                 </tr>
             </tbody>
         </table>

@@ -520,42 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "server.js",
+			"file": "app/views/index.server.view.html",
 			"settings":
 			{
-				"buffer_size": 815,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/env/all.js",
-			"settings":
-			{
-				"buffer_size": 1655,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/env/production.js",
-			"settings":
-			{
-				"buffer_size": 1357,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bower.json",
-			"settings":
-			{
-				"buffer_size": 670,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/env/development.js",
-			"settings":
-			{
-				"buffer_size": 1284,
+				"buffer_size": 110,
 				"line_ending": "Unix"
 			}
 		}
@@ -697,58 +665,55 @@
 	"expanded_folders":
 	[
 		"/D/NodeJs/MeanExam",
-		"/D/NodeJs/MeanExam/app",
-		"/D/NodeJs/MeanExam/app/controllers",
-		"/D/NodeJs/MeanExam/app/models",
-		"/D/NodeJs/MeanExam/app/routes",
-		"/D/NodeJs/MeanExam/app/views",
 		"/D/NodeJs/MeanExam/config",
 		"/D/NodeJs/MeanExam/config/env",
 		"/D/NodeJs/MeanExam/public",
-		"/D/NodeJs/MeanExam/public/modules/articles/controllers",
-		"/D/NodeJs/MeanExam/public/modules/articles/views",
-		"/D/NodeJs/MeanExam/public/modules/core",
-		"/D/NodeJs/MeanExam/public/modules/core/controllers",
-		"/D/NodeJs/MeanExam/public/modules/core/views"
+		"/D/NodeJs/MeanExam/public/modules",
+		"/D/NodeJs/MeanExam/public/modules/articles",
+		"/D/NodeJs/MeanExam/public/modules/articles/config",
+		"/D/NodeJs/MeanExam/public/modules/articles/controllers"
 	],
 	"file_history":
 	[
+		"/D/NodeJs/MeanExam/public/modules/articles/controllers/articles.client.controller.js",
+		"/D/NodeJs/MeanExam/app/controllers/users.server.controller.js",
+		"/D/NodeJs/MeanExam/app/controllers/users/users.authentication.server.controller.js",
+		"/D/NodeJs/MeanExam/app/views/layout.server.view.html",
+		"/D/NodeJs/MeanExam/app/controllers/core.server.controller.js",
+		"/D/NodeJs/MeanExam/app/controllers/articles.server.controller.js",
+		"/D/NodeJs/MeanExam/public/modules/articles/config/articles.client.routes.js",
+		"/D/NodeJs/MeanExam/config/env/all.js",
+		"/D/NodeJs/MeanExam/public/config.js",
+		"/D/NodeJs/MeanExam/public/application.js",
+		"/D/NodeJs/MeanExam/app/routes/articles.server.routes.js",
+		"/D/NodeJs/MeanExam/app/routes/core.server.routes.js",
+		"/D/NodeJs/MeanExam/app/models/article.server.model.js",
+		"/D/NodeJs/MeanExam/public/modules/articles/views/create-article.client.view.html",
+		"/D/NodeJs/MeanExam/public/modules/articles/views/list-articles.client.view.html",
+		"/D/NodeJs/MeanExam/public/modules/articles/views/view-article.client.view.html",
+		"/D/NodeJs/MeanExam/public/modules/articles/views/edit-article.client.view.html",
+		"/D/NodeJs/MeanExam/config/env/development.js",
+		"/D/NodeJs/MeanExam/bower.json",
+		"/D/NodeJs/MeanExam/server.js",
+		"/D/NodeJs/MeanExam/config/env/production.js",
 		"/D/NodeJs/MeanExam/config/config.js",
 		"/D/NodeJs/MeanExam/Dockerfile",
 		"/D/NodeJs/MeanExam/gruntfile.js",
-		"/D/NodeJs/MeanExam/app/routes/articles.server.routes.js",
-		"/D/NodeJs/MeanExam/app/controllers/articles.server.controller.js",
-		"/D/NodeJs/MeanExam/public/modules/articles/controllers/articles.client.controller.js",
 		"/D/NodeJs/MeanExam/public/services/utils.js",
-		"/D/NodeJs/MeanExam/public/modules/articles/views/edit-article.client.view.html",
-		"/D/NodeJs/MeanExam/public/modules/articles/views/list-articles.client.view.html",
-		"/D/NodeJs/MeanExam/config/env/all.js",
 		"/D/NodeJs/MeanExam/fig.yml",
-		"/D/NodeJs/MeanExam/public/modules/articles/views/view-article.client.view.html",
 		"/D/NodeJs/MeanExam/public/lib/ng-table/ng-table.js",
 		"/D/NodeJs/MeanExam/public/modules/core/controllers/home.client.controller.js",
 		"/D/NodeJs/phanphoi_giaiphap/app/views/list/district.html",
-		"/D/NodeJs/MeanExam/app/models/article.server.model.js",
-		"/D/NodeJs/MeanExam/public/modules/articles/views/create-article.client.view.html",
 		"/D/NodeJs/MeanExam/public/modules/core/views/home.client.view.html",
 		"/D/NodeJs/MeanExam/app/views/index.server.view.html",
-		"/D/NodeJs/MeanExam/config/env/development.js",
-		"/D/NodeJs/MeanExam/config/env/production.js",
-		"/D/NodeJs/MeanExam/app/controllers/core.server.controller.js",
-		"/D/NodeJs/MeanExam/app/routes/core.server.routes.js",
-		"/D/NodeJs/MeanExam/app/views/layout.server.view.html",
 		"/D/NodeJs/MeanExam/public/modules/core/views/header.client.view.html",
-		"/D/NodeJs/MeanExam/server.js",
 		"/D/NodeJs/MeanExam/package.json",
-		"/D/NodeJs/MeanExam/bower.json",
 		"/D/NodeJs/MeanExam/public/modules/core/controllers/header.client.controller.js",
-		"/D/NodeJs/MeanExam/public/modules/articles/config/articles.client.routes.js",
 		"/D/NodeJs/MeanExam/node_modules/mongoose-search-plugin/node_modules/natural/lib/natural/stemmers/lancaster_stemmer.js",
 		"/D/NodeJs/MeanExam/node_modules/mongoose-search-plugin/node_modules/natural/lib/natural/stemmers/porter_stemmer.js",
 		"/D/NodeJs/MeanExam/node_modules/mongoose-search-plugin/node_modules/natural/lib/natural/stemmers/porter_stemmer_es.js",
 		"/D/NodeJs/MeanExam/node_modules/mongoose-search-plugin/node_modules/natural/lib/natural/stemmers/lancaster_rules.js",
 		"/D/NodeJs/MeanExam/public/lib/angular-ui-utils/ui-utils.js",
-		"/D/NodeJs/MeanExam/public/config.js",
 		"/D/NodeJs/MeanExam/public/modules/articles/services/articles.client.service.js",
 		"/D/NodeJs/MeanExam/node_modules/mongoose-search-plugin/node_modules/natural/index.js",
 		"/D/NodeJs/MeanExam/public/modules/core/services/menus.client.service.js",
@@ -759,7 +724,6 @@
 		"/D/NodeJs/MeanExam/public/lib/angularjs-toaster/toaster.js",
 		"/D/NodeJs/MeanExam/public/services/notify.js",
 		"/D/NodeJs/MeanExam/public/lib/angularjs-toaster/toaster.css",
-		"/D/NodeJs/MeanExam/public/application.js",
 		"/D/NodeJs/MeanExam/public/lib/angular-toastr/dist/angular-toastr.js",
 		"/D/NodeJs/MeanExam/public/lib/angular-toastr/bower.json",
 		"/D/NodeJs/MeanExam/public/lib/toastr/toastr.js",
@@ -795,9 +759,7 @@
 		"/D/NodeJs/MeanExam/public/modules/core/config/core.client.routes.js",
 		"/D/NodeJs/MeanExam/public/robots.txt",
 		"/D/NodeJs/MeanExam/public/humans.txt",
-		"/D/NodeJs/MeanExam/app/controllers/users.server.controller.js",
 		"/D/NodeJs/MeanExam/app/controllers/users/users.profile.server.controller.js",
-		"/D/NodeJs/MeanExam/app/controllers/users/users.authentication.server.controller.js",
 		"/D/NodeJs/MeanExam/config/passport.js",
 		"/D/NodeJs/MeanExam/app/models/user.server.model.js",
 		"/D/NodeJs/MeanExam/config/strategies/facebook.js",
@@ -1136,221 +1098,35 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "server.js",
+					"file": "app/views/index.server.view.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 815,
+						"buffer_size": 110,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								110,
+								110
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/env/all.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1655,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								652,
-								496
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "config/env/production.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1357,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								227,
-								227
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"HTML",
-								"XML",
-								"HTML5",
-								"CSS",
-								"Node.js",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"HTML",
-								"XML",
-								"HTML5",
-								"CSS",
-								"Node.js",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"jQuery",
-								"Prototype"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 70.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "bower.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 670,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "config/env/development.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1284,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1492,7 +1268,7 @@
 		[
 			[
 				"",
-				"D:\\NodeJs\\spa\\spa.sublime-project"
+				"D:\\NodeJs\\EnglishVocabulary\\EnglishVocabulary.sublime-project"
 			]
 		],
 		"width": 380.0

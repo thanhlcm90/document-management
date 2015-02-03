@@ -3,9 +3,18 @@
 angular.module('articles').controller('ArticlesController', ['$scope', '$stateParams', '$location', 'Authentication', 'Articles', 'ngTableParams', 'Utils', 'Notify',
     function($scope, $stateParams, $location, Authentication, Articles, ngTableParams, Utils, Notify) {
         var initializing = true
-
         $scope.authentication = Authentication;
         $scope.groupby = 'title';
+
+        // nếu chưa đăng nhập thì không cho vào form
+        if (!$scope.authentication.user) {
+            Notify.warning("Bạn phải đăng nhập để tiếp tục sử dụng chương trình");
+            $location.path('/signin');
+        }
+
+        // config tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+
         $scope.search = function() {
             $location.search('search_string', $scope.search_string);
         };
@@ -74,7 +83,8 @@ angular.module('articles').controller('ArticlesController', ['$scope', '$statePa
                 content: this.content,
                 org: this.org,
                 range: this.range,
-                description: this.description
+                description: this.description,
+                doc: this.doc
             });
             article.$save(function(response) {
                 $scope.content = '';
@@ -104,7 +114,7 @@ angular.module('articles').controller('ArticlesController', ['$scope', '$statePa
             var article = $scope.article;
 
             article.$update(function() {
-                $location.path('articles' + article._id);
+                $location.path('articles/' + article._id);
             }, function(errorResponse) {
                 $scope.error = errorResponse.data.message;
             });
@@ -119,5 +129,30 @@ angular.module('articles').controller('ArticlesController', ['$scope', '$statePa
                 articleId: $stateParams.articleId
             });
         };
+
+        $scope.rowClick = function(id) {
+            $location.path("/articles/" + id);
+        }
+
+        $scope.printClick = function() {
+            print($("#article-body").html(), $scope.article.content);
+        }
+
+        function print(data, title) {
+            var mywindow = window.open('', title, 'height=400,width=600');
+            mywindow.document.write('<html><head>');
+            /*optional stylesheet*/ //mywindow.document.write('<link rel="stylesheet" href="main.css" type="text/css" />');
+            mywindow.document.write('</head><body >');
+            mywindow.document.write(data);
+            mywindow.document.write('</body></html>');
+
+            mywindow.document.close(); // necessary for IE >= 10
+            mywindow.focus(); // necessary for IE >= 10
+
+            mywindow.print();
+            mywindow.close();
+
+            return true;
+        }
     }
 ]);

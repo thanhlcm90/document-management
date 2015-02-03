@@ -32,7 +32,8 @@ module.exports = {
 				'public/lib/ng-table/ng-table.min.js',
 				'public/lib/angular-loading-bar/build/loading-bar.min.js',
 				'public/lib/jquery/dist/jquery.min.js',
-				'public/lib/angularjs-toaster/toaster.js'
+				'public/lib/angularjs-toaster/toaster.js',
+				'public/lib/bootstrap/js/tooltip.js',
 			]
 		},
 		css: [

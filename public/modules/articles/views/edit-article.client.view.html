@@ -41,6 +41,12 @@
 						<input name="org" data-ng-model="article.org" id="org" class="form-control" placeholder="Cơ quan thực hiện" required/>
 					</div>
 				</div>
+				<div class="form-group" ng-class="{ 'has-error': articleForm.doc.$dirty && articleForm.doc.$invalid }">
+					<label class="control-label" for="doc">Văn bản, bản mẫu</label>
+					<div class="controls">
+						<textarea name="doc" data-ng-model="article.doc" id="doc" class="form-control" cols="30" rows="10" placeholder="Văn bản, bản mẫu"></textarea>
+					</div>
+				</div>
 				<div class="form-group">
 					<input type="submit" value="Update" class="btn btn-default">
 				</div>

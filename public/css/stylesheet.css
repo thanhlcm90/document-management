@@ -1,0 +1,9 @@
+.table-row:hover {
+    background: #EDF1F5;
+}
+.ng-table-rowselected tr {
+    cursor: pointer;
+}
+.header-menu {
+    cursor: pointer;
+}
