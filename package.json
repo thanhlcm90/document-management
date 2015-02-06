@@ -5,7 +5,7 @@
 	"author": "Thanhle",
 	"engines": {
 		"node": "0.10.x",
-		"npm": "1.4.x"
+		"npm": "2.4.x"
 	},
 	"scripts": {
 		"start": "grunt",

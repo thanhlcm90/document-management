@@ -519,14 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/views/index.server.view.html",
-			"settings":
-			{
-				"buffer_size": 110,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/User/nodejs.sublime-build",
 	"command_palette":
@@ -664,17 +656,50 @@
 	},
 	"expanded_folders":
 	[
-		"/D/NodeJs/MeanExam",
-		"/D/NodeJs/MeanExam/config",
-		"/D/NodeJs/MeanExam/config/env",
-		"/D/NodeJs/MeanExam/public",
-		"/D/NodeJs/MeanExam/public/modules",
-		"/D/NodeJs/MeanExam/public/modules/articles",
-		"/D/NodeJs/MeanExam/public/modules/articles/config",
-		"/D/NodeJs/MeanExam/public/modules/articles/controllers"
+		"/D/NodeJs/HoSo",
+		"/D/NodeJs/HoSo/app",
+		"/D/NodeJs/HoSo/app/controllers",
+		"/D/NodeJs/HoSo/app/models",
+		"/D/NodeJs/HoSo/app/views",
+		"/D/NodeJs/HoSo/config",
+		"/D/NodeJs/HoSo/config/env",
+		"/D/NodeJs/HoSo/public",
+		"/D/NodeJs/HoSo/public/css",
+		"/D/NodeJs/HoSo/public/modules",
+		"/D/NodeJs/HoSo/public/modules/articles",
+		"/D/NodeJs/HoSo/public/modules/articles/controllers",
+		"/D/NodeJs/HoSo/public/modules/articles/services",
+		"/D/NodeJs/HoSo/public/modules/articles/views",
+		"/D/NodeJs/HoSo/public/modules/core",
+		"/D/NodeJs/HoSo/public/modules/core/views",
+		"/D/NodeJs/HoSo/public/services"
 	],
 	"file_history":
 	[
+		"/D/NodeJs/HoSo/public/modules/articles/views/create-article.client.view.html",
+		"/D/NodeJs/HoSo/public/modules/articles/views/edit-article.client.view.html",
+		"/D/NodeJs/HoSo/public/modules/articles/views/view-article.client.view.html",
+		"/D/NodeJs/HoSo/package.json",
+		"/D/NodeJs/HoSo/app/controllers/articles.server.controller.js",
+		"/D/NodeJs/HoSo/public/modules/articles/controllers/articles.client.controller.js",
+		"/D/NodeJs/HoSo/app/models/article.server.model.js",
+		"/D/NodeJs/HoSo/public/modules/articles/services/articles.client.service.js",
+		"/D/NodeJs/HoSo/public/modules/articles/articles.client.module.js",
+		"/D/NodeJs/HoSo/public/modules/users/config/users.client.routes.js",
+		"/D/NodeJs/HoSo/public/services/notify.js",
+		"/D/NodeJs/phanphoi_giaiphap/app/views/user/list.html",
+		"/D/NodeJs/HoSo/public/css/stylesheet.css",
+		"/D/NodeJs/HoSo/public/modules/articles/views/list-articles.client.view.html",
+		"/D/NodeJs/HoSo/config/env/all.js",
+		"/D/NodeJs/HoSo/public/modules/core/views/header.client.view.html",
+		"/D/NodeJs/HoSo/app/views/layout.server.view.html",
+		"/D/NodeJs/HoSo/config/env/production.js",
+		"/D/NodeJs/HoSo/config/env/development.js",
+		"/D/NodeJs/HoSo/public/modules/users/controllers/authentication.client.controller.js",
+		"/D/NodeJs/HoSo/public/modules/users/controllers/password.client.controller.js",
+		"/D/NodeJs/HoSo/public/modules/users/controllers/settings.client.controller.js",
+		"/D/NodeJs/HoSo/public/modules/users/config/users.client.config.js",
+		"/D/NodeJs/HoSo/app/views/index.server.view.html",
 		"/D/NodeJs/MeanExam/public/modules/articles/controllers/articles.client.controller.js",
 		"/D/NodeJs/MeanExam/app/controllers/users.server.controller.js",
 		"/D/NodeJs/MeanExam/app/controllers/users/users.authentication.server.controller.js",
@@ -778,31 +803,7 @@
 		"/D/Web Theme/aquarius/index.html",
 		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Views/Main/_West.cshtml",
 		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/resources/js/main.js",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/D/NodeJs/PhanPhoi/routes/routes-report.js",
-		"/D/NodeJs/PhanPhoi/routes/routes-user.js",
-		"/D/NodeJs/PhanPhoi/routes/routes-setting.js",
-		"/D/NodeJs/PhanPhoi/models/user.js",
-		"/D/HTC/WebApplication1/WebApplication1/Controllers/AccountController.cs",
-		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Views/Main/_Center.cshtml",
-		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Views/Main/Index.cshtml",
-		"/D/HTC/WebApplication1/WebApplication1/App_Start/Startup.Auth.cs",
-		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Areas/Portal/Controllers/ComplexController.cs",
-		"/D/NodeJs/PhanPhoi/models/bank.js",
-		"/D/NodeJs/PhanPhoi/models/customer.js",
-		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Views/Web.config",
-		"/D/HTC/Kachiusa/Administrator/Content/examples.css",
-		"/D/HTC/Kachiusa/Administrator/Content/main.css",
-		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Ext.Net.Examples.MVC.csproj",
-		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Ext.Net.Examples.MVC.csproj.user",
-		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Global.asax.cs",
-		"/D/HTC/Kachiusa/Administrator/Views/ExtNet/Index.cshtml",
-		"/D/NodeJs/PhanPhoi/models/recruitment.js",
-		"/D/NodeJs/PhanPhoi/routes/routes-customer.js",
-		"/D/NodeJs/AngularJSAuthentication/AngularJSAuthentication.API/Models/Enums.cs",
-		"/D/NodeJs/AngularJSAuthentication/AngularJSAuthentication.API/Entities/Client.cs",
-		"/D/NodeJs/PhanPhoi/routes/routes-recruitment.js",
-		"/D/NodeJs/AngularJSAuthentication/AngularJSAuthentication.API/AuthRepository.cs"
+		"/C/Windows/System32/drivers/etc/hosts"
 	],
 	"find":
 	{
@@ -826,6 +827,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"authentication",
 			"3000",
 			"$groups",
 			"$scope.articles",
@@ -952,8 +954,7 @@
 			"user_level",
 			"posi",
 			"     *",
-			"     * ",
-			"     *"
+			"     * "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1098,37 +1099,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/views/index.server.view.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 110,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								110,
-								110
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 70.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1268,7 +1240,7 @@
 		[
 			[
 				"",
-				"D:\\NodeJs\\EnglishVocabulary\\EnglishVocabulary.sublime-project"
+				"D:\\NodeJs\\PhanPhoi\\phanphoi.sublime-project"
 			]
 		],
 		"width": 380.0
