@@ -6,12 +6,6 @@ angular.module('articles').controller('ArticlesController', ['$scope', '$statePa
         $scope.authentication = Authentication;
         $scope.groupby = 'title';
 
-        // nếu chưa đăng nhập thì không cho vào form
-        if (!$scope.authentication.user) {
-            Notify.warning("Bạn phải đăng nhập để tiếp tục sử dụng chương trình");
-            $location.path('/signin');
-        }
-
         // config tooltip
         $('[data-toggle="tooltip"]').tooltip();
 
