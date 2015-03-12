@@ -1,59 +1,65 @@
-<section data-ng-controller="ArticlesController">
-	<div class="page-header">
-		<h1>New Article</h1>
-	</div>
-	<div class="col-md-12">
-		<form name="articleForm" class="form-horizontal" data-ng-submit="create()" novalidate>
-			<fieldset>
-				<div class="form-group" ng-class="{ 'has-error': articleForm.title.$dirty && articleForm.title.$invalid }">
-					<label class="control-label" for="title">Danh mục</label>
-					<div class="controls">
-						<input name="title" type="text" data-ng-model="title" id="title" class="form-control" placeholder="Danh mục" required>
-					</div>
-				</div>
-				<div class="form-group" ng-class="{ 'has-error': articleForm.sub_title.$dirty && articleForm.sub_title.$invalid }">
-					<label class="control-label" for="sub_title">Danh mục phụ</label>
-					<div class="controls">
-						<input name="sub_title" type="text" data-ng-model="sub_title" id="sub_title" class="form-control" placeholder="Danh mục phụ" required>
-					</div>
-				</div>
-				<div class="form-group" ng-class="{ 'has-error': articleForm.content.$dirty && articleForm.content.$invalid }">
-					<label class="control-label" for="content">Tên thủ tục hành chính</label>
-					<div class="controls">
-						<textarea name="content" data-ng-model="content" id="content" class="form-control" cols="30" rows="2" placeholder="Tên thủ tục hành chính"></textarea>
-					</div>
-				</div>
-				<div class="form-group" ng-class="{ 'has-error': articleForm.description.$dirty && articleForm.description.$invalid }">
-					<label class="control-label" for="description">Nội dung</label>
-					<div class="controls">
-						<textarea name="description" data-ng-model="description" id="description" class="form-control" cols="30" rows="10" placeholder="Nội dung"></textarea>
-					</div>
-				</div>
-				<div class="form-group" ng-class="{ 'has-error': articleForm.range.$dirty && articleForm.range.$invalid }">
-					<label class="control-label" for="range">Lĩnh vực</label>
-					<div class="controls">
-						<input name="range" data-ng-model="range" id="range" class="form-control" placeholder="Lĩnh vực" required/>
-					</div>
-				</div>
-				<div class="form-group" ng-class="{ 'has-error': articleForm.org.$dirty && articleForm.org.$invalid }">
-					<label class="control-label" for="org">Cơ quan thực hiện</label>
-					<div class="controls">
-						<input name="org" data-ng-model="org" id="org" class="form-control" placeholder="Cơ quan thực hiện" required/>
-					</div>
-				</div>
-				<div class="form-group" ng-class="{ 'has-error': articleForm.doc.$dirty && articleForm.doc.$invalid }">
-					<label class="control-label" for="doc">Mẫu đơn, tờ khai</label>
-					<div class="controls">
-						<textarea name="doc" data-ng-model="doc" id="doc" class="form-control" cols="30" rows="10" placeholder="Mẫu đơn, tờ khai"></textarea>
-					</div>
-				</div>
-				<div class="form-group">
-					<input type="submit" class="btn btn-default">
-				</div>
-				<div data-ng-show="error" class="text-danger">
-					<strong data-ng-bind="error"></strong>
-				</div>
-			</fieldset>
-		</form>
-	</div>
+<section data-ng-controller="ArticlesEditController">
+    <div class="page-header">
+        <h1>New Article</h1>
+    </div>
+    <div class="col-md-12">
+        <form name="articleForm" class="form-horizontal" data-ng-submit="create()" novalidate>
+            <fieldset>
+                <div class="form-group" ng-class="{ 'has-error': articleForm.title.$dirty && articleForm.title.$invalid }">
+                    <label class="control-label" for="title">Danh mục</label>
+                    <div class="controls">
+                        <input name="title" type="text" data-ng-model="title" id="title" class="form-control" placeholder="Danh mục" required>
+                    </div>
+                </div>
+                <div class="form-group" ng-class="{ 'has-error': articleForm.sub_title.$dirty && articleForm.sub_title.$invalid }">
+                    <label class="control-label" for="sub_title">Danh mục phụ</label>
+                    <div class="controls">
+                        <input name="sub_title" type="text" data-ng-model="sub_title" id="sub_title" class="form-control" placeholder="Danh mục phụ" required>
+                    </div>
+                </div>
+                <div class="form-group" ng-class="{ 'has-error': articleForm.content.$dirty && articleForm.content.$invalid }">
+                    <label class="control-label" for="content">Tên thủ tục hành chính</label>
+                    <div class="controls">
+                        <textarea name="content" data-ng-model="content" id="content" class="form-control" cols="30" rows="2" placeholder="Tên thủ tục hành chính"></textarea>
+                    </div>
+                </div>
+                <div class="form-group" ng-class="{ 'has-error': articleForm.description.$dirty && articleForm.description.$invalid }">
+                    <label class="control-label" for="description">Nội dung</label>
+                    <div class="controls">
+                        <textarea name="description" ckeditor="editorOptions" data-ng-model="description" id="description" class="form-control" cols="30" rows="10" placeholder="Nội dung"></textarea>
+                    </div>
+                </div>
+                <div class="form-group" ng-class="{ 'has-error': articleForm.range.$dirty && articleForm.range.$invalid }">
+                    <label class="control-label" for="range">Lĩnh vực</label>
+                    <div class="controls">
+                        <input name="range" data-ng-model="range" id="range" class="form-control" placeholder="Lĩnh vực" required/>
+                    </div>
+                </div>
+                <div class="form-group" ng-class="{ 'has-error': articleForm.org.$dirty && articleForm.org.$invalid }">
+                    <label class="control-label" for="org">Cơ quan thực hiện</label>
+                    <div class="controls">
+                        <input name="org" data-ng-model="org" id="org" class="form-control" placeholder="Cơ quan thực hiện" required/>
+                    </div>
+                </div>
+                <div class="form-group" ng-class="{ 'has-error': articleForm.doc.$dirty && articleForm.doc.$invalid }">
+                    <label class="control-label" for="doc">Mẫu đơn, tờ khai</label>
+                    <div class="controls">
+                        <textarea name="doc" ckeditor="editorOptions" data-ng-model="doc" id="doc" class="form-control" cols="30" rows="10" placeholder="Mẫu đơn, tờ khai"></textarea>
+                    </div>
+                </div>
+                <div class="form-group" ng-class="{ 'has-error': articleForm.can_cu_phap_ly.$dirty && articleForm.doc.$invalid }">
+                    <label class="control-label" for="can_cu_phap_ly">Căn cứ pháp lý</label>
+                    <div class="controls">
+                        <textarea name="can_cu_phap_ly" ckeditor="editorOptions" data-ng-model="can_cu_phap_ly" id="can_cu_phap_ly" class="form-control" cols="30" rows="10" placeholder="Căn cứ pháp lý"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-default">
+                </div>
+                <div data-ng-show="error" class="text-danger">
+                    <strong data-ng-bind="error"></strong>
+                </div>
+            </fieldset>
+        </form>
+    </div>
 </section>

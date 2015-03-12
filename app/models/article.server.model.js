@@ -56,6 +56,10 @@ var ArticleSchema = new Schema({
     doc: {
         type: String,
         default: ''
+    },
+    can_cu_phap_ly: {
+        type: String,
+        default: ''
     }
 });
 

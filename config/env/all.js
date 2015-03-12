@@ -34,6 +34,7 @@ module.exports = {
 				'public/lib/jquery/dist/jquery.min.js',
 				'public/lib/angularjs-toaster/toaster.js',
 				'public/lib/bootstrap/js/tooltip.js',
+				'public/lib/angular-ckeditor/angular-ckeditor.js'
 			]
 		},
 		css: [
