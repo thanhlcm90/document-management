@@ -73,7 +73,8 @@ function articlesEditController($scope, $stateParams, $location, Authentication,
             org: this.org,
             range: this.range,
             description: this.description,
-            doc: this.doc
+            doc: this.doc,
+            can_cu_phap_ly: this.can_cu_phap_ly
         });
         article.$save(function(response) {
             $scope.content = '';
@@ -84,7 +85,6 @@ function articlesEditController($scope, $stateParams, $location, Authentication,
     };
     $scope.update = function() {
         var article = $scope.article;
-
         article.$update(function() {
             $location.path('articles/' + article._id);
         }, function(errorResponse) {

@@ -521,9 +521,14 @@
 	[
 	],
 	"build_system": "Packages/User/nodejs.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 104.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -659,40 +664,60 @@
 		"/D/NodeJs/HoSo",
 		"/D/NodeJs/HoSo/app",
 		"/D/NodeJs/HoSo/app/controllers",
+		"/D/NodeJs/HoSo/app/controllers/users",
 		"/D/NodeJs/HoSo/app/models",
+		"/D/NodeJs/HoSo/app/routes",
 		"/D/NodeJs/HoSo/app/views",
-		"/D/NodeJs/HoSo/config/env",
+		"/D/NodeJs/HoSo/config",
 		"/D/NodeJs/HoSo/public",
-		"/D/NodeJs/HoSo/public/lib",
-		"/D/NodeJs/HoSo/public/lib/ng-ckeditor",
-		"/D/NodeJs/HoSo/public/lib/ng-ckeditor/libs",
-		"/D/NodeJs/HoSo/public/lib/ng-ckeditor/libs/ckeditor",
+		"/D/NodeJs/HoSo/public/modules",
 		"/D/NodeJs/HoSo/public/modules/articles",
 		"/D/NodeJs/HoSo/public/modules/articles/config",
 		"/D/NodeJs/HoSo/public/modules/articles/controllers",
 		"/D/NodeJs/HoSo/public/modules/articles/services",
 		"/D/NodeJs/HoSo/public/modules/articles/views",
-		"/D/NodeJs/HoSo/public/modules/core"
+		"/D/NodeJs/HoSo/public/modules/core",
+		"/D/NodeJs/HoSo/public/modules/core/views"
 	],
 	"file_history":
 	[
-		"/D/NodeJs/HoSo/public/modules/articles/views/create-article.client.view.html",
-		"/D/NodeJs/HoSo/public/modules/articles/views/edit-article.client.view.html",
-		"/D/NodeJs/HoSo/public/modules/articles/controllers/articles.client.controller.js",
-		"/D/NodeJs/HoSo/public/lib/ng-ckeditor/ng-ckeditor.js",
-		"/D/NodeJs/HoSo/config/env/all.js",
-		"/D/NodeJs/HoSo/public/application.js",
-		"/D/NodeJs/HoSo/public/config.js",
-		"/D/NodeJs/HoSo/public/modules/articles/views/view-article.client.view.html",
+		"/D/NodeJs/HoSo/app/controllers/errors.server.controller.js",
 		"/D/NodeJs/HoSo/app/views/layout.server.view.html",
-		"/D/NodeJs/HoSo/app/views/index.server.view.html",
-		"/D/NodeJs/HoSo/public/modules/articles/config/articles.client.config.js",
-		"/D/NodeJs/HoSo/public/modules/articles/services/articles.client.service.js",
-		"/D/NodeJs/HoSo/public/modules/articles/articles.client.module.js",
-		"/D/NodeJs/HoSo/app/models/article.server.model.js",
-		"/D/NodeJs/HoSo/app/controllers/articles.server.controller.js",
-		"/D/NodeJs/phanphoi_giaiphap/app/controllers/list/cityController.js",
 		"/D/NodeJs/HoSo/package.json",
+		"/D/NodeJs/HoSo/config/express.js",
+		"/D/NodeJs/HoSo/public/modules/articles/controllers/articles.client.controller.js",
+		"/D/NodeJs/HoSo/public/modules/core/views/home.client.view.html",
+		"/D/NodeJs/HoSo/app/controllers/articles.server.controller.js",
+		"/D/NodeJs/HoSo/public/modules/articles/views/edit-article.client.view.html",
+		"/D/NodeJs/HoSo/public/modules/articles/views/create-article.client.view.html",
+		"/D/NodeJs/HoSo/public/modules/articles/config/articles.client.config.js",
+		"/D/NodeJs/HoSo/public/modules/articles/config/articles.client.routes.js",
+		"/D/NodeJs/HoSo/public/modules/articles/services/articles.client.service.js",
+		"/D/NodeJs/HoSo/app/models/article.server.model.js",
+		"/D/NodeJs/HoSo/app/routes/articles.server.routes.js",
+		"/D/NodeJs/HoSo/app/views/index.server.view.html",
+		"/D/NodeJs/HoSo/config/strategies/local.js",
+		"/D/NodeJs/HoSo/server.js",
+		"/D/NodeJs/HoSo/config/passport.js",
+		"/D/NodeJs/HoSo/config/config.js",
+		"/D/NodeJs/HoSo/app/controllers/core.server.controller.js",
+		"/D/NodeJs/HoSo/app/controllers/users.server.controller.js",
+		"/D/NodeJs/HoSo/app/controllers/users/users.authentication.server.controller.js",
+		"/D/NodeJs/HoSo/app/controllers/users/users.authorization.server.controller.js",
+		"/D/NodeJs/HoSo/app/routes/core.server.routes.js",
+		"/D/NodeJs/HoSo/config/init.js",
+		"/D/NodeJs/honda/index.html",
+		"/D/NodeJs/HoSo/public/config.js",
+		"/D/NodeJs/HoSo/config/env/all.js",
+		"/D/NodeJs/HoSo/public/lib/angular-ckeditor/angular-ckeditor.js",
+		"/D/NodeJs/HoSo/public/modules/articles/views/view-article.client.view.html",
+		"/D/NodeJs/HoSo/bower.json",
+		"/D/NodeJs/HoSo/public/lib/ng-ckeditor/ng-ckeditor.js",
+		"/D/NodeJs/HoSo/public/lib/angularjs-toaster/toaster.js",
+		"/D/NodeJs/HoSo/public/application.js",
+		"/D/NodeJs/HoSo/public/lib/ng-ckeditor/libs/ckeditor/ckeditor.js",
+		"/D/NodeJs/HoSo/public/modules/articles/articles.client.module.js",
+		"/D/NodeJs/phanphoi_giaiphap/app/controllers/list/cityController.js",
 		"/D/NodeJs/HoSo/public/modules/users/config/users.client.routes.js",
 		"/D/NodeJs/HoSo/public/services/notify.js",
 		"/D/NodeJs/phanphoi_giaiphap/app/views/user/list.html",
@@ -783,27 +808,7 @@
 		"/D/NodeJs/MeanExam/app/controllers/errors.server.controller.js",
 		"/D/NodeJs/MeanExam/public/modules/users/views/authentication/signin.client.view.html",
 		"/D/NodeJs/PhanPhoi/models/product.js",
-		"/D/NodeJs/PhanPhoi/models/order.js",
-		"/D/NodeJs/MeanExam/public/modules/users/views/authentication/signup.client.view.html",
-		"/D/NodeJs/MeanExam/public/modules/core/config/core.client.routes.js",
-		"/D/NodeJs/MeanExam/public/robots.txt",
-		"/D/NodeJs/MeanExam/public/humans.txt",
-		"/D/NodeJs/MeanExam/app/controllers/users/users.profile.server.controller.js",
-		"/D/NodeJs/MeanExam/config/passport.js",
-		"/D/NodeJs/MeanExam/app/models/user.server.model.js",
-		"/D/NodeJs/MeanExam/config/strategies/facebook.js",
-		"/D/NodeJs/phanphoi_dieuphoi/app/controllers/orderprocessedController.js",
-		"/D/NodeJs/phanphoi_dieuphoi/app/controllers/orderprocessController.js",
-		"/D/NodeJs/phanphoi_dieuphoi/app/controllers/orderEditController.js",
-		"/D/NodeJs/PhanPhoi/data_sample/User.json",
-		"/D/NodeJs/PhanPhoi/data_sample/People.json",
-		"/D/NodeJs/PhanPhoi/test/test-order.js",
-		"/D/NodeJs/MeanExample/server.js",
-		"/D/NodeJs/PhanPhoi/routes/routes-order.js",
-		"/D/NodeJs/MeanExample/packages/users/public/routes/auth.js",
-		"/D/Web Theme/aquarius/js/plugins.js",
-		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Models/ExamplesModel.cs",
-		"/D/Software/Development/Ext.NET.MVC.Pro.3.0.0.MVC.Examples.Explorer/MVC Examples Explorer/Ext.Net.Examples.MVC/Controllers/MainController.cs"
+		"/D/NodeJs/PhanPhoi/models/order.js"
 	],
 	"find":
 	{
@@ -827,6 +832,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"helmet",
+			"can_cu_phap_ly",
+			"hasAuthorization",
+			"ckeditorController",
+			"CKEditor",
 			"ArticlesController",
 			"Thành",
 			"authentication",
@@ -949,12 +959,7 @@
 			"nation",
 			"list_province",
 			"update People",
-			"'False'",
-			"'True'",
-			"posi",
-			"is_ca",
-			"user_level",
-			"posi"
+			"'False'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1147,6 +1152,7 @@
 	{
 		"height": 94.0
 	},
+	"pinned_build_system": "",
 	"project": "HoSo.sublime-project",
 	"replace":
 	{
@@ -1156,6 +1162,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1236,11 +1243,16 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
 				"",
-				"D:\\NodeJs\\phanphoi_giaiphap\\spa.sublime-project"
+				"D:\\NodeJs\\store_management_server\\store_management.sublime-project"
+			],
+			[
+				"sto",
+				"D:\\NodeJs\\store_management_server\\store_management.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1248,6 +1260,7 @@
 	"select_symbol":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
