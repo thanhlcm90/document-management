@@ -24,9 +24,9 @@
 					</div>
 				</div>
 				<div class="form-group" ng-class="{ 'has-error': articleForm.description.$dirty && articleForm.description.$invalid }">
-					<label class="control-label" for="description">Nội dung</label>
+					<label class="control-label" for="description">Nội dung báo cáo</label>
 					<div class="controls">
-						<textarea name="description" ckeditor="editorOptions" data-ng-model="article.description" id="description" class="form-control" cols="30" rows="10" placeholder="Nội dung"></textarea>
+						<textarea name="description" ckeditor="editorOptions" data-ng-model="article.description" id="description" class="form-control" cols="30" rows="10" placeholder="Nội dung báo cáo"></textarea>
 					</div>
 				</div>
 				<div class="form-group" ng-class="{ 'has-error': articleForm.range.$dirty && articleForm.range.$invalid }">
@@ -42,15 +42,15 @@
 					</div>
 				</div>
 				<div class="form-group" ng-class="{ 'has-error': articleForm.doc.$dirty && articleForm.doc.$invalid }">
-					<label class="control-label" for="doc">Mẫu đơn, tờ khai</label>
+					<label class="control-label" for="doc">Ý kiến đề nghị</label>
 					<div class="controls">
-						<textarea name="doc" ckeditor="editorOptions" data-ng-model="article.doc" id="doc" class="form-control" cols="30" rows="10" placeholder="Mẫu đơn, tờ khai"></textarea>
+						<textarea name="doc" ckeditor="editorOptions" data-ng-model="article.doc" id="doc" class="form-control" cols="30" rows="10" placeholder="Ý kiến đề nghị"></textarea>
 					</div>
 				</div>				
 				<div class="form-group" ng-class="{ 'has-error': articleForm.can_cu_phap_ly.$dirty && articleForm.doc.$invalid }">
-					<label class="control-label" for="can_cu_phap_ly">Căn cứ pháp lý</label>
+					<label class="control-label" for="can_cu_phap_ly">Phụ lục, mẫu biểu</label>
 					<div class="controls">
-						<textarea name="can_cu_phap_ly" ckeditor="editorOptions" data-ng-model="article.can_cu_phap_ly" id="can_cu_phap_ly" class="form-control" cols="30" rows="10" placeholder="Căn cứ pháp lý"></textarea>
+						<textarea name="can_cu_phap_ly" ckeditor="editorOptions" data-ng-model="article.can_cu_phap_ly" id="can_cu_phap_ly" class="form-control" cols="30" rows="10" placeholder="Phụ lục, mẫu biểu"></textarea>
 					</div>
 				</div>
 				<div class="form-group">
