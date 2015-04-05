@@ -77,9 +77,10 @@ module.exports = function(db) {
 
 	// Request body parsing middleware should be above methodOverride
 	app.use(bodyParser.urlencoded({
-		extended: true
+		extended: true,
+		limit: '50mb'
 	}));
-	app.use(bodyParser.json());
+	app.use(bodyParser.json({limit: '50mb'}));
 	app.use(methodOverride());
 
 	// CookieParser should be above session

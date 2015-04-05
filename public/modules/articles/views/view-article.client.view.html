@@ -29,10 +29,10 @@
         <p class="lead">Cơ quan thực hiện:</p>
         <p data-ng-bind="article.org"></p>
         <p class="lead">Nội dung:</p>
-        <p ng-bind-html="article.description"></p>
-        <p class="lead">Mẫu đơn, tờ khai:</p>
-        <p ng-bind-html="article.doc"></p>
-        <p class="lead">Căn cứ pháp lý:</p>
-        <p ng-bind-html="article.can_cu_phap_ly"></p>
+        <div bind-html-unsafe="article.description" style="border-style: solid; border-width: 1px; padding: 15px;"></div>
+        <p class="lead" style="margin-top: 20px;">Mẫu đơn, tờ khai:</p>
+        <div bind-html-unsafe="article.doc" style="border-style: solid; border-width: 1px; padding: 15px;"></div>
+        <p class="lead" style="margin-top: 20px;">Căn cứ pháp lý:</p>
+        <div bind-html-unsafe="article.can_cu_phap_ly" style="border-style: solid; border-width: 1px; padding: 15px;"></div>
     </div>
 </section>
