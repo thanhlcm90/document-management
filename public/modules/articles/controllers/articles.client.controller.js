@@ -117,7 +117,7 @@ function articlesController($scope, $stateParams, $location, Authentication, Art
     var initializing = true
     $scope.authentication = Authentication;
     $scope.groupby = 'title';
-
+    console.log($scope.authentication);
     // config tooltip
     $('[data-toggle="tooltip"]').tooltip();
 

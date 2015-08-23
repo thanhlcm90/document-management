@@ -2,7 +2,7 @@
 
 module.exports = {
 	app: {
-		title: 'DocumentManagement',
+		title: 'Quản lý văn bản',
 		description: 'Document Management Application with MongoDB, Express, AngularJS, and Node.js',
 		keywords: 'Document, Management, MongoDB, Express, AngularJS, Node.js'
 	},

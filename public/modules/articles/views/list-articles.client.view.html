@@ -14,7 +14,7 @@
             </select>
         </div>
         <div class="col-md-2">
-            <button class="btn btn-primary" data-ng-click="addNew()">Thêm mới</button>
+            <button class="btn btn-primary" ng-if="authentication.user != ''" data-ng-click="addNew()">Thêm mới</button>
         </div>
     </div>
     <div loading-container="tableParams.settings().$loading">
@@ -29,7 +29,7 @@
                     </td>
                 </tr>
                 <tr ng-hide="group.$hideRows" data-ng-repeat="item in group.data" data-ng-click="rowClick(item._id)" class="table-row">
-                    <td data-title="'Tên thủ tục hành chính'" sortable="'content'">{{item.content}}</td>
+                    <td data-title="'Văn bản QPPL'" sortable="'content'">{{item.content}}</td>
                     <td data-title="'Lĩnh vực'" sortable="'range'">{{item.range}}</td>
                     <td data-title="'Cơ quan thực hiện'" sortable="'org'">{{item.org}}</td>
                 </tr>
