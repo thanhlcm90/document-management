@@ -9,7 +9,7 @@
         <div class="col-md-2">
             <select ng-model="groupby" class="form-control">
                 <option value="title">Nhóm theo Danh mục</option>
-                <option value="range">Nhóm theo Lĩnh vực</option>
+                <option value="range">Nhóm theo Đơn vị quản lý</option>
                 <option value="org">Nhóm theo Cơ quan thực hiện</option>
             </select>
         </div>
@@ -29,8 +29,8 @@
                     </td>
                 </tr>
                 <tr ng-hide="group.$hideRows" data-ng-repeat="item in group.data" data-ng-click="rowClick(item._id)" class="table-row">
-                    <td data-title="'Tên thủ tục hành chính'" sortable="'content'">{{item.content}}</td>
-                    <td data-title="'Lĩnh vực'" sortable="'range'">{{item.range}}</td>
+                    <td data-title="'Quản lý pháp chế'" sortable="'content'">{{item.content}}</td>
+                    <td data-title="'Đơn vị quản lý'" sortable="'range'">{{item.range}}</td>
                     <td data-title="'Cơ quan thực hiện'" sortable="'org'">{{item.org}}</td>
                 </tr>
             </tbody>

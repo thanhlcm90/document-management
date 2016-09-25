@@ -25,11 +25,11 @@ var ArticleSchema = new Schema({
         default: '',
         trim: true
     },
-    content: { // tên thủ tục hành chính
+    content: { // Quản lý pháp chế
         type: String,
         default: '',
         trim: true,
-        required: 'Tên thủ tục hành chính không được trống',
+        required: 'Quản lý pháp chế không được trống',
         index: 'text'
     },
     description: {
@@ -41,7 +41,7 @@ var ArticleSchema = new Schema({
         type: String,
         default: '',
         trim: true,
-        required: 'Lĩnh vực không được trống'
+        required: 'Đơn vị quản lý không được trống'
     },
     org: { // Cơ quan thực hiện
         type: String,

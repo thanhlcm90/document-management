@@ -18,9 +18,9 @@
                     </div>
                 </div>
                 <div class="form-group" ng-class="{ 'has-error': articleForm.content.$dirty && articleForm.content.$invalid }">
-                    <label class="control-label" for="content">Tên thủ tục hành chính</label>
+                    <label class="control-label" for="content">Quản lý pháp chế</label>
                     <div class="controls">
-                        <textarea name="content" data-ng-model="content" id="content" class="form-control" cols="30" rows="2" placeholder="Tên thủ tục hành chính"></textarea>
+                        <textarea name="content" data-ng-model="content" id="content" class="form-control" cols="30" rows="2" placeholder="Quản lý pháp chế"></textarea>
                     </div>
                 </div>
                 <div class="form-group" ng-class="{ 'has-error': articleForm.description.$dirty && articleForm.description.$invalid }">
@@ -30,9 +30,9 @@
                     </div>
                 </div>
                 <div class="form-group" ng-class="{ 'has-error': articleForm.range.$dirty && articleForm.range.$invalid }">
-                    <label class="control-label" for="range">Lĩnh vực</label>
+                    <label class="control-label" for="range">Đơn vị quản lý</label>
                     <div class="controls">
-                        <input name="range" data-ng-model="range" id="range" class="form-control" placeholder="Lĩnh vực" required/>
+                        <input name="range" data-ng-model="range" id="range" class="form-control" placeholder="Đơn vị quản lý" required/>
                     </div>
                 </div>
                 <div class="form-group" ng-class="{ 'has-error': articleForm.org.$dirty && articleForm.org.$invalid }">
@@ -42,15 +42,15 @@
                     </div>
                 </div>
                 <div class="form-group" ng-class="{ 'has-error': articleForm.doc.$dirty && articleForm.doc.$invalid }">
-                    <label class="control-label" for="doc">Mẫu đơn, tờ khai</label>
+                    <label class="control-label" for="doc">Bổ sung mới</label>
                     <div class="controls">
-                        <textarea name="doc" ckeditor="editorOptions" data-ng-model="doc" id="doc" class="form-control" cols="30" rows="10" placeholder="Mẫu đơn, tờ khai"></textarea>
+                        <textarea name="doc" ckeditor="editorOptions" data-ng-model="doc" id="doc" class="form-control" cols="30" rows="10" placeholder="Bổ sung mới"></textarea>
                     </div>
                 </div>
                 <div class="form-group" ng-class="{ 'has-error': articleForm.can_cu_phap_ly.$dirty && articleForm.doc.$invalid }">
-                    <label class="control-label" for="can_cu_phap_ly">Căn cứ pháp lý</label>
+                    <label class="control-label" for="can_cu_phap_ly">Trích yếu tư pháp</label>
                     <div class="controls">
-                        <textarea name="can_cu_phap_ly" ckeditor="editorOptions" data-ng-model="article.can_cu_phap_ly" id="can_cu_phap_ly" class="form-control" cols="30" rows="10" placeholder="Căn cứ pháp lý"></textarea>
+                        <textarea name="can_cu_phap_ly" ckeditor="editorOptions" data-ng-model="article.can_cu_phap_ly" id="can_cu_phap_ly" class="form-control" cols="30" rows="10" placeholder="Trích yếu tư pháp"></textarea>
                     </div>
                 </div>
                 <div class="form-group">
